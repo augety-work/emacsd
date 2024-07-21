@@ -1,0 +1,8 @@
+elpa/
+.cache/
+transient/
+auto-save-list/
+history
+amx-items
+projectile-bookmarks.eld
+recentf
