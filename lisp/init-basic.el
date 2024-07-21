@@ -33,8 +33,8 @@
 ;; highlight当前行
 (global-hl-line-mode 1)
 ;; 配置字体
-(set-face-attribute 'default nil :font (font-spec :family "Hack Nerd Font Mono" :size 15))
-(set-fontset-font t 'unicode (font-spec :family "Noto Color Emoji" :size 15))
+(set-face-attribute 'default nil :font (font-spec :family "Hack Nerd Font Mono" :size 19))
+(set-fontset-font t 'unicode (font-spec :family "Noto Color Emoji" :size 19))
 
 (provide 'init-basic)
 ;;; init-basic.el ends 

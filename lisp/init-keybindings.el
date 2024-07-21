@@ -27,15 +27,5 @@
 ;; 光标向上移动 10 行
 (global-set-key (kbd "M-p") 'previous-ten-lines)
 
-(define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
-(define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
-
-(define-key evil-normal-state-map (kbd "C-k") (lambda ()
-                                                (interactive)
-                                                (evil-scroll-up nil)))
-(define-key evil-normal-state-map (kbd "C-j") (lambda ()
-                                                (interactive)
-                                                (evil-scroll-down nil)))
-
 (provide 'init-keybindings)
 ;;; init-keybindings.el ends here

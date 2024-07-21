@@ -241,7 +241,6 @@ Up^^             Down^^           Miscellaneous           % 2(mc/num-cursors) cu
 (use-package treemacs-magit
   :after (treemacs magit))
 
-(require 'init-evil)
 
 (provide 'init-packages)
 ;;; init-packages.el ends here
